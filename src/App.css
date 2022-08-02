@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+}
+main {
+  width: 100%;
+  padding: 20px;
+}
+.sidebar {
+  background: #000;
+  color: #fff;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+}
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+.logo {
+  font-size: 30px;
+}
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link {
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover {
+  background: lightskyblue;
+  color: #000;
+  transition: all 0.5s;
+}
+.active {
+  background: lightskyblue;
+  color: #000;
+}
+.icon,
+.link_text {
+  font-size: 20px;
+}
+.selectDate {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.viewAttendance {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.saveBtn {
+  color: white;
+  background-color: #2563eb;
+  font-size: 26px;
+  margin: 2rem;
+  /* padding: 0.5rem; */
+  padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+  border-radius: 20%;
+}
+.btnDiv {
+  float: right;
+}
+.dateCalendar {
+  padding: 0.5rem;
+}
+.img-logo {
+  height: 50px;
+  width: 50px;
+}
+.heading {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
